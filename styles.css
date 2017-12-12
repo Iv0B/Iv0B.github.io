@@ -1,0 +1,124 @@
+/* Normal here */
+
+ html {
+     height: 100%;
+ }
+ body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: -20px;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: black;
+  padding-top: 1px;
+  padding-bottom:16px;
+  opacity: 0.7;
+}
+
+img {
+   max-width: 70%;
+   height: auto;
+   width: auto\9;
+}
+
+p1 {
+    font-weight: bold;
+}
+
+p2 {
+    font-weight: normal;
+}
+
+
+/* Div's here */
+
+#nav {
+    width: 100%;
+    height: 400px;;
+    background-image: url(Photos/Banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav_wrapper {
+    width: 500px;
+    height: 52px;
+    background: gray;
+    margin-left: auto;
+    margin-right: 20px;
+    opacity: 0.7;
+    position: absolute;
+    top: 328px;
+    left: 0px;
+}
+
+#nav_wrapper ul {
+    text-align: center;
+}
+
+#nav_wrapper ul li {
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    padding: 5px;
+    display: inline-block;
+}
+
+#nav_wrapper a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    opacity: 1;
+}
+
+#nav_wrapper ul li:hover{
+    background: black;
+    color: black;
+    transition:all 3,45s;
+}
+
+#content {
+    background-color: white;
+    width: 100%;
+    height: 540px;
+}
+
+#first {
+  margin-top: 30px;
+  margin-left: 3%;
+  margin-right: 3%;
+  align-content: center;
+  font-size: 18px;
+  position: sticky;
+}
+
+#content #first p {
+  color: black;
+}
+
+#second {
+  clear: both;
+}
+
+#footer h4 {
+  left: 20px;
+  color: white;
+}
+/* Classes */
+
+.right {
+  float: right;
+  padding: 0px 0px 20px 20px;
+}
+
+/* Multimedia */
