@@ -31,6 +31,10 @@ img {
    width: auto\9;
 }
 
+h1 {
+    text-align: left;
+}
+
 p1 {
     font-weight: bold;
 }
@@ -39,6 +43,9 @@ p2 {
     font-weight: normal;
 }
 
+ul {
+    list-style-type: none;
+}
 
 /* Div's here */
 
@@ -100,6 +107,12 @@ p2 {
   align-content: center;
   font-size: 18px;
   position: sticky;
+}
+
+#first ul li {
+    position: left;
+    padding-left: 0px;
+    text-align: left;
 }
 
 #content #first p {
