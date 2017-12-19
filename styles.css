@@ -47,6 +47,23 @@ ul {
     list-style-type: none;
 }
 
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background: #dddddd;
+}
+
 /* Div's here */
 
 #nav {
@@ -109,6 +126,14 @@ ul {
   position: sticky;
 }
 
+#firsttable {
+    align-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+    margin-top: 100px;
+}
+
 #first ul li {
     position: left;
     padding-left: 0px;
@@ -119,7 +144,7 @@ ul {
   color: black;
 }
 
-#second {
+#content #SecondTable {
   clear: both;
 }
 
